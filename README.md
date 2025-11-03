@@ -23,7 +23,7 @@ Students make study plans but never stick to them. Current AI tools like ChatGPT
 **In Development** - Building MVP
 
 **Completed:**
-- [] Project Setup
+- [✔] Project Setup
 - [] Landing page with email signup
 - [] Database integration
 - [] AI-generated study plans
