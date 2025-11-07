@@ -13,11 +13,23 @@
         <h1>Welcome to Study Buddy!</h1>
         <p>Your Study Buddy That Actually Sticks</p>
 
-        <div class="test-box">
-            <h2> System Test</h2>
-            <button id="testBtn">Test Backend Connection</button>
-            <div id="result"></div>
+        <div class="progress-container">
+            <div class="progress-bar" id="progress-bar"></div>
         </div>
+
+        <p class="progress-text" id="progress-text">Question 1 of 4</p>
+
+        <div class="onboarding-box">
+            <h2> Get Started </h2>
+            <!-- ai question display here-->
+            <div id="ai-question">
+                <p>Hi! What are you studying?</p>
+            </div>
+            <!-- user answer input here-->
+            <input type="text" id="user-answer" placeholder="Type your answer...">
+            <button id="next-btn">Next</button>
+        </div>
+
     </div>
 
     <script src="app.js"></script>

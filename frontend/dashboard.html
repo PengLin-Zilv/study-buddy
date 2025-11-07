@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Study Plan</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Your Personalized Study Plan</h1>
+        <div class="plan-box">
+            <div class="plan-header">
+                <h2 id="subject-name">Loading...</h2>
+                <p id="exam-countdown">Calculating...</p>
+            </div>
+
+            <div class="plan-details">
+                <div class="detail-item">
+                    <span class="label">📅 Exam Date:</span>
+                    <span id="exam-date-display">-</span>
+                </div>
+                <div class="detail-item">
+                    <span class="label">⏰ Daily Study Time:</span>
+                    <span id="daily-time">-</span>
+                </div>
+                <div class="detail-item">
+                    <span class="label">🎯 Goal:</span>
+                    <span id="goal">-</span>
+                </div>
+            </div>
+
+            <div class="action-section">
+                <button id="start-studying" class="primary-btn">Start Studying Now! 🚀</button>
+            </div>
+        </div> 
+    </div>
+
+    <script src="dashboard.js"></script>
+
+</body>
+</html>
+
